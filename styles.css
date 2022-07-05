@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-container {
+    width: 95%;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-top:6rem;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+    margin-bottom:2rem;
+}
+
+.search {
+    display:flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.search button {
+    display: block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.institutions-container {
+    margin:8rem;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    border: 0.5px solid black;
+    padding: .5rem;
+}
+
+.acronym {
+    margin-bottom: .25rem;
+    font-size: 1.5rem;
+}
+
+.orga {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+
+
