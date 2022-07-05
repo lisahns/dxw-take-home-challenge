@@ -52,5 +52,7 @@ h1 {
     color: #777;
 }
 
-
+.hide {
+    display:none;
+}
 
